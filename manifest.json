@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "TheGedzie_Weather",
+    "version": "1.0",
+    "description": "Check the weather of your city",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "./assets/weather.png"
+    },
+    "premissions": ["geolocation"]
+}
