@@ -7,5 +7,9 @@
         "default_popup": "index.html",
         "default_icon": "./assets/weather.png"
     },
-    "premissions": ["geolocation"]
+    "web_accessible_resources": [{
+        "resources": ["css/*", "js/*", "assets/*"],
+        "matches": ["<all_urls>"]
+    }],
+    "permissions": ["geolocation"]
 }

@@ -44,13 +44,13 @@ const renderWeather = async(city) =>{
                 <p class="weather__info-wind">Ветер: ${data.wind.speed}  м/c</p>
                 <img src="./assets/videos/wind.gif" alt="Wind gif">
             </div>
-            <p class="weather__info-temperature">Температура : ${data.main.temp} градусов C</p>
+            <p class="weather__info-temperature">Температура : ${data.main.temp} ℃</p>
         `
     }
     catch(error){
         weather.innerHTML = 
         `
-            <p style = 'color:red'}>Непредвиденная ошибка: ${error.message}</p>
+            <p style = 'color:red'>Непредвиденная ошибка: ${error.message}</p>
 
         `
     }
